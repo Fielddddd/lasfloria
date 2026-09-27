@@ -1,0 +1,60 @@
+{
+  "Navbar": {
+    "brand": "Lasfloria Co.",
+    "aboutUs": "About us",
+    "service": "Service",
+    "contactUs": "Contact us"
+  },
+  "Banner": {
+    "headline1": "We design and build",
+    "headline2": "modern websites.",
+    "subtitle1": "UX/UI Design & Front-End Development",
+    "subtitle2": "for brands that care about experience.",
+    "cta": "Contact us"
+  },
+  "AboutUs": {
+    "heading1": "We're a small team of",
+    "heading2": "designers & developers",
+    "heading3": "based in Thailand!",
+    "description1": "We focus on clean design, fast performance, and thoughtful details.",
+    "description2": "Every project is an opportunity to create something meaningful that truly serves its users."
+  },
+  "OurService": {
+    "heading": "We design and build modern websites",
+    "description1": "We focus on clean design, fast performance, and thoughtful",
+    "description2": "details. Every project is an opportunity to create something",
+    "uxuiTitle": "UX/UI Design",
+    "uxuiDescription": "We create clean, modern, and user-focused interfaces starting from research, wireframes, and prototypes, all the way to final visual design. Every layout is crafted to feel intuitive, easy to use, and aligned with your brand. Our goal is to make your product not only look great, but work beautifully for real users.",
+    "webTitle": "Web Development",
+    "webDescription": "We build fast, responsive, and reliable websites using clean, modern code. Every page is optimized for performance, mobile friendliness, and smooth interactions. Whether it's a single landing page or a full multi-page site, we make sure it works seamlessly and delivers a great experience across all devices."
+  },
+  "GetToKnow": {
+    "line1": "If you're here, you're probably looking for a website that suits your brand better.",
+    "line2": "We design with care so your site feels modern, warm, and simple to use.",
+    "line3": "Tell us what you need —",
+    "line3Highlight": "we're ready to build it with you."
+  },
+  "Contact": {
+    "heading1": "Let's talk about",
+    "heading2": "your website idea",
+    "description1": "Tell us about your project goals,",
+    "description2": "and we'll work together to make them happen.",
+    "email": "Email",
+    "instagram": "Instagram",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "sentMessage": "Thanks! Your message has been sent.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "formInvalid": "Please fix the highlighted fields.",
+    "nameInvalid": "Please enter your name.",
+    "emailInvalid": "Please enter a valid email address.",
+    "messageInvalid": "Please enter a message."
+  },
+  "Footer": {
+    "brand": "Lasfloria.co",
+    "tagline": "Designing clean, modern experiences that truly matter."
+  }
+}
