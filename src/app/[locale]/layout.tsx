@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Figtree, Kanit } from "next/font/google";
-// @ts-expect-error CSS side-effect imports are handled by Next.js.
 import "@/app/globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import Navbar from "@/components/layout/navbar";
