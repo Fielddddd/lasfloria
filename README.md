@@ -1,40 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lasfloria Co. — Modern Digital Studio Landing Page
 
-## Getting Started
+A responsive, bilingual (EN/TH) agency landing page built with Next.js 15, React 19, and Tailwind CSS.
 
-First, run the development server:
+<!-- Replace with your deployed URL if available -->
+<!-- 🔗 **Live Demo:** [https://your-lasfloria-demo.vercel.app](https://your-lasfloria-demo.vercel.app) -->
 
+---
+
+## ✨ Features
+
+- **Bilingual Support (EN / TH):** Seamless locale switching with `next-intl`, paired with optimized fonts for each language (Figtree for English, Kanit for Thai).
+- **Serverless Contact Form:** Built with **Zod** schema validation and integrated directly with Google Apps Script to handle submissions without maintaining a dedicated backend server.
+- **Modern & Responsive UI:** Crafted with **Tailwind CSS v4** and Radix UI primitives, fully responsive across mobile, tablet, and desktop.
+- **Interactive Feedback:** Real-time form error clearing as you type, with toast notifications powered by **Sonner**.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15 (App Router, Turbopack)
+- **Library:** React 19
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4, tw-animate-css
+- **UI & Icons:** Radix UI primitives, Lucide React
+- **Libraries:** next-intl (i18n), Zod (Validation), Sonner (Toasts)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Set up environment variables
+Create a `.env` file based on `.env.example`:
+```bash
+cp .env.example .env
+```
+Add your Google Apps Script endpoint:
+```env
+NEXT_PUBLIC_CONTACT_FORM_ENDPOINT="your_endpoint_here"
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run development server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 👤 Author
 
-To learn more about Next.js, take a look at the following resources:
+**Annisa Noivong (Field)**
+- GitHub: [@Fielddddd](https://github.com/Fielddddd)
+- Email: [annisanoivong@gmail.com](mailto:annisanoivong@gmail.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-## License
+## 📄 License
 
 © 2026 Annisa Noivong — All rights reserved. Personal portfolio project.
