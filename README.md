@@ -1,6 +1,6 @@
 # Lasfloria Co. — Modern Digital Studio Landing Page
 
-A responsive, bilingual (EN/TH) agency landing page built with Next.js 15, React 19, and Tailwind CSS.
+A responsive, bilingual (EN/TH) agency landing page built with Next.js, React, and Tailwind CSS.
 
 <!-- Replace with your deployed URL if available -->
 <!-- 🔗 **Live Demo:** [https://your-lasfloria-demo.vercel.app](https://your-lasfloria-demo.vercel.app) -->
@@ -18,10 +18,10 @@ A responsive, bilingual (EN/TH) agency landing page built with Next.js 15, React
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Next.js 15 (App Router, Turbopack)
-- **Library:** React 19
+- **Framework:** Next.js (App Router, Turbopack)
+- **Library:** React
 - **Language:** TypeScript
-- **Styling:** Tailwind CSS v4, tw-animate-css
+- **Styling:** Tailwind CSS, tw-animate-css
 - **UI & Icons:** Radix UI primitives, Lucide React
 - **Libraries:** next-intl (i18n), Zod (Validation), Sonner (Toasts)
 
